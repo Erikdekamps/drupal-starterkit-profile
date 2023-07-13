@@ -1,0 +1,9 @@
+{
+    "name": "erikdekamps/drupal_starterkit_profile",
+    "description": "Drupal starterkit profile",
+    "type": "drupal-custom-profile",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/layout_paragraphs": "^2.0"
+    }
+}
