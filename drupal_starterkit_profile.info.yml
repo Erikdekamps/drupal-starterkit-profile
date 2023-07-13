@@ -8,3 +8,7 @@ package: starterkit
 # Note that this will not set any theme as the default theme.
 install:
   - layout_paragraphs
+  - admin_toolbar
+
+themes:
+  - gin

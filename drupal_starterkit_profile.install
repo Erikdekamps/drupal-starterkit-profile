@@ -5,6 +5,9 @@
  * Install, update and uninstall functions for the pursubsite install profile.
  */
 
+require_once dirname(__FILE__) . '/includes/node.inc';
+require_once dirname(__FILE__) . '/includes/site-config.inc';
+
 /**
  * Implements hook_install().
  *
@@ -14,5 +17,7 @@
  */
 function drupal_starterkit_profile_install() {
 
-  // Todo.
+  // @todo Stuff.
+  _drupal_starterkit_profile_create_base_nodes();
+  _drupal_starterkit_profile_change_site_config();
 }
