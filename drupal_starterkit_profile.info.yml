@@ -17,9 +17,11 @@ install:
   - layout_builder
 
   # Development.
+  - dblog
   - config
   - field_ui
   - admin_toolbar_tools
 
 themes:
+  - olivero
   - gin

@@ -15,11 +15,11 @@ function _drupal_starterkit_profile_create_base_nodes() {
 
   // Generate the homepage node.
   $node = Node::create([
-    'type' => 'basic_page',
+    'type' => 'page',
     'title' => 'Home',
     'body' => [
       'value' => 'De voorpagina.',
-      'format' => 'full_html',
+      'format' => 'basic_html',
     ],
   ]);
   $node->save();

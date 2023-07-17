@@ -18,7 +18,7 @@ function _drupal_starterkit_profile_change_site_config() {
 
   // Set pursubsite theme as default theme and adminimal theme as admin theme.
   $theme_config = $config_factory->getEditable('system.theme');
-  $theme_config->set('default', 'gin');
+  $theme_config->set('default', 'olivero');
   $theme_config->set('admin', 'gin');
   $theme_config->save();
 

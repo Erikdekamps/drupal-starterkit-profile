@@ -1,0 +1,10 @@
+uuid: bee04350-64b0-4899-9569-f5b288a1465c
+langcode: nl
+status: true
+dependencies: {  }
+id: text
+label: Text
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

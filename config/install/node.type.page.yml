@@ -1,8 +1,8 @@
-uuid: 4d6c07b8-15ef-4e3b-8f5c-469f474d0380
+uuid: c0294498-9f11-4a8c-bd7e-006c1604fd7c
 langcode: nl
 status: true
 dependencies: {  }
-name: page
+name: Page
 type: page
 description: 'Basic page.'
 help: ''
