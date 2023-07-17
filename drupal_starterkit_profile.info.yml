@@ -2,13 +2,24 @@ name: Drupal Starterkit Profile
 type: profile
 description: 'Drupal Starterkit Profile'
 core_version_requirement: '^8.8 || ^9 || ^10'
+base profile: false
 package: starterkit
 
 # List any themes that should be installed as part of the profile installation.
 # Note that this will not set any theme as the default theme.
 install:
+  - block
+  - field
+  - node
   - layout_paragraphs
   - admin_toolbar
+  - ckeditor5
+  - layout_builder
+
+  # Development.
+  - config
+  - field_ui
+  - admin_toolbar_tools
 
 themes:
   - gin
